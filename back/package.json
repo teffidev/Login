@@ -1,0 +1,36 @@
+{
+  "name":"login",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon --exec ts-node --watch src src/index.ts"
+  },
+  "prisma": {
+    "schema": "src/Database/DB.prisma"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.10",
+    "@apollo/server": "^4.5.0",
+    "@prisma/client": "^4.11.0",
+    "apollo-server-micro": "^3.12.0",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "prisma": "^4.11.0",
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.17",
+    "@types/graphql": "^14.5.0",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^18.15.3",
+    "@types/nodemon": "^1.19.2",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1"
+  }
+}

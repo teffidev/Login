@@ -1,0 +1,10 @@
+# Creamos una función GraphQL que permita verificar si 
+# las credenciales son correctas.
+
+query LoginUser($email: String!, $password: String!) {
+    loginUser(email: $email, password: $password) {
+        id
+        name
+        email
+    };
+};
